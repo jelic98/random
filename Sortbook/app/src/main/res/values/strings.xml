@@ -1,0 +1,38 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Sortbook.</string>
+    <string name="progress">Work in progress\n...</string>
+    <string name="copyright">Copyright © 2015 Ecloga Apps</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="about_us_header">Who are we?</string>
+    <string name="about_us_text">We are company from Serbia that is really into
+        \nmaking useful apps and building beautiful websites.
+        \nOur genius minded team of developers and designers
+        \nwork hard to give our users "5 star" experience.
+        \n\nIf you want to hire us on your project or
+        \njoin our awesome team, please contact us.</string>
+    <string name="contact_us_header">Get in touch.</string>
+    <string name="help_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        \nPraesent vel ultricies turpis quisque tincidunt elit.
+        \nVitae odiohendrerit accumsan non at odio
+        \nvivamus in ante sed dolor auctor egestas.
+        \nProin iaculis felis vel rhoncus vehicula
+        \npraesent magna eros, euismod sed magna malesuada.</string>
+    <string name="contact_us_text">+381614437010\njelic.ecloga@gmail.com\nwww.ecloga.org</string>
+    <string name="task_description">Description</string>
+    <string name="task_title">Title</string>
+    <string name="group_name">Name</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="add_reminder">ADD REMINDER</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_archive">Mark as done</string>
+    <string name="menu_favourite">Favourite</string>
+    <string name="menu_group">Change group</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_details">Details</string>
+    <string name="menu_rename">Rename</string>
+    <string name="action_failed_header">Something went wrong</string>
+    <string name="action_failed_text">Tap to try again</string>
+    <string name="no_tasks_header">Lets get busy</string>
+</resources>

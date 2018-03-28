@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Notifications &amp; Alarms"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/text_secondary" />
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="My Account"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/text_secondary" />
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl3"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Report a problem"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/text_secondary" />
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl4"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Help &amp; Feedback"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/text_secondary" />
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl5"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="About us"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="60dp">
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                rv_centered="true">
+
+                <ImageView
+                    android:id="@+id/ivSpread"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/button" />
+
+                <TextView
+                    android:id="@+id/tvSpread"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Spread a word"
+                    android:textSize="25sp"
+                    android:textColor="@color/primary"
+                    android:gravity="center"/>
+            </com.andexert.library.RippleView>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

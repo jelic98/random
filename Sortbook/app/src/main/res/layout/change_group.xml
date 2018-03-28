@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/group_1"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/group_red"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_2"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/group_green"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Love"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_3"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/group_blue"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Work"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_4"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/group_orange"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="School"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_5"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/group_pink"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shopping"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_6"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="@color/group_dark"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:id="@+id/btnCancel"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/cancel"
+        android:textAllCaps="true" />
+</LinearLayout>

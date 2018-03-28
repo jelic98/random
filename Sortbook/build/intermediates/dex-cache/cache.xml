@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Lazar\AndroidStudioProjects\Sortbook\Sortbook\app\build\intermediates\exploded-aar\Sortbook.libraries\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b3ab72a00f0cb386888401b1ab66f9c4ecf47942">
+        <dex dex="C:\Users\Lazar\AndroidStudioProjects\Sortbook\Sortbook\app\build\intermediates\pre-dexed\debug\classes-e0a12d25fe4cc758d89b8cfec040ace54c291254.jar" />
+    </item>
+
+</items>

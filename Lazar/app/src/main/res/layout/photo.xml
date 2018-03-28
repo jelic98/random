@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:layout_width="125sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibTakePic"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@null"
+        android:layout_below="@+id/ivReturnedPic"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="125sp"
+        android:layout_height="wrap_content"
+        android:text="@string/set"
+        android:id="@+id/bSetWallpaper"
+        android:layout_gravity="center"
+        android:layout_below="@+id/ibTakePic"
+        android:layout_alignStart="@+id/ibTakePic" />
+
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:id="@+id/ivReturnedPic"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null" />
+
+</RelativeLayout>

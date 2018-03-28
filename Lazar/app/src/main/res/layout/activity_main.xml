@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20sp"
+    android:paddingRight="20sp"
+    android:paddingBottom="20sp"
+    tools:context=".MainActivity"
+    android:background="@drawable/splash_background">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:text="@string/bAdd"
+        android:id="@+id/bAdd"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#006600"
+        android:layout_above="@+id/bSub"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:text="@string/bSub"
+        android:id="@+id/bSub"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#006600"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15sp"
+        android:layout_marginTop="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/tvDisplay"
+        android:textColorHint="#006600"
+        android:layout_marginTop="30sp"
+        android:textColor="#FF6600"
+        android:id="@+id/tvDisplay"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otac"
+        android:id="@+id/radioButton"
+        android:textColor="#000000"
+        android:textSize="27sp"
+        android:checked="false"
+        android:layout_marginEnd="20sp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/tvDisplay"
+        android:layout_alignEnd="@+id/tvDisplay" />
+
+</RelativeLayout>

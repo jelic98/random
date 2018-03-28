@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/edit_menu"
+        android:title="@string/menu_edit" />
+
+    <item
+        android:id="@+id/menu_archive"
+        android:icon="@drawable/done_menu"
+        android:title="@string/menu_archive" />
+
+    <item
+        android:id="@+id/menu_favourite"
+        android:icon="@drawable/favourite_menu"
+        android:title="@string/menu_favourite" />
+
+    <item
+        android:id="@+id/menu_group"
+        android:icon="@drawable/group_menu"
+        android:title="@string/menu_group" />
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/share_menu"
+        android:title="@string/menu_share" />
+
+    <item
+        android:id="@+id/menu_details"
+        android:icon="@drawable/details_menu"
+        android:title="@string/menu_details" />
+</menu>

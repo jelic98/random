@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/group_primary"
+    android:paddingTop="10dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/etTtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_title"
+        android:textCursorDrawable="@drawable/edit_cursor"
+        android:textSize="20sp"
+        app:met_baseColor="@color/white"
+        app:met_errorColor="@color/accent"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="20"
+        app:met_primaryColor="@color/white"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_description"
+        android:textCursorDrawable="@drawable/edit_cursor"
+        android:textSize="20sp"
+        app:met_baseColor="@color/white"
+        app:met_errorColor="@color/accent"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="100"
+        app:met_primaryColor="@color/white"
+        app:met_singleLineEllipsis="true" />
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:src="@drawable/proirity" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rating"
+                    app:dsb_min="1"
+                    app:dsb_max="5"
+                    app:dsb_value="3"
+                    app:dsb_indicatorTextAppearance="@style/CustomFloaterTextAppearance"
+                    app:dsb_allowTrackClickToDrag="true"
+                    app:dsb_progressColor="@color/accent"
+                    app:dsb_trackColor="@color/white"
+                    app:dsb_indicatorColor="@color/accent_ripple"
+                    app:dsb_indicatorElevation="5dp"
+                    app:dsb_rippleColor="@color/accent_dark" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            rv_centered="true">
+
+            <ImageView
+                android:id="@+id/add_favourites"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/favourites_stroke"
+                android:clickable="true" />
+        </com.andexert.library.RippleView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:layout_marginRight="10dp"
+                rv_centered="true">
+
+                <ImageView
+                    android:id="@+id/choose_group"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@color/group_dark"
+                    android:contentDescription="@null"
+                    android:clickable="true" />
+            </com.andexert.library.RippleView>
+
+            <com.andexert.library.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginLeft="10dp"
+                rv_centered="true">
+
+                <ImageView
+                    android:id="@+id/calendar"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/calendar"
+                    android:clickable="true" />
+            </com.andexert.library.RippleView>
+        </LinearLayout>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            rv_centered="true">
+
+            <ImageView
+                android:id="@+id/add_reminder"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/reminder"
+                android:clickable="true" />
+        </com.andexert.library.RippleView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom|end"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/cancel"
+            android:textAllCaps="true" />
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/ok"
+            android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

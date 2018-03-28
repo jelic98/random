@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/app_texture">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <RelativeLayout
+            android:id="@+id/rl0"
+            android:clickable="true"
+            android:background="@color/primary"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/tv0"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="10dp"
+                android:text="Notifications"
+                android:textColor="@color/text_primary"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/text_secondary" />
+
+            <ImageView
+                android:id="@+id/indicator0"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/done_menu"/>
+        </RelativeLayout>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:background="@color/primary_dark"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Sound"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/text_secondary" />
+
+                <ImageView
+                    android:id="@+id/indicator1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/done_menu"/>
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl2"
+                android:background="@color/primary_dark"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Vibration"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/text_secondary" />
+
+                <ImageView
+                    android:id="@+id/indicator2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/done_menu"/>
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl3"
+                android:background="@color/primary_dark"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Light"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/indicator3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/done_menu"/>
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            rv_centered="true">
+
+            <RelativeLayout
+                android:id="@+id/rl4"
+                android:layout_marginTop="20dp"
+                android:background="@color/primary"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:paddingTop="15dp">
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="Alarms"
+                    android:textColor="@color/text_primary"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:id="@+id/indicator4"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/done_menu"/>
+            </RelativeLayout>
+        </com.andexert.library.RippleView>
+    </LinearLayout>
+</ScrollView>

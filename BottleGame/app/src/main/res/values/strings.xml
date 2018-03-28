@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bottle Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="info">
+"Bottle Game let's you play
+Spin the Bottle game
+without a real bottle
+
+Just SPIN it!
+
+If you like this application plase
+give it 5 stars on Google Play
+and share it with friends
+
+For more information send e-mail:
+jelic.ecloga@gmail.com
+
+Copyright © 2015 Ecloga Apps
+All rights reserved"</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dobrivoje</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bAdd">Dodaj (+1)</string>
+    <string name="bSub">Oduzmi (-1)</string>
+    <string name="tvDisplay">Rezultat: 0 </string>
+    <string name="splashText">Copyright 2015 Ecloga Apps</string>
+    <string name="otac">Laky.Brat=otac</string>
+    <string name="score">Score: 0</string>
+    <string name="command">Type a command</string>
+    <string name="tryc">Try command</string>
+    <string name="SA">StartActivity</string>
+    <string name="crazy">Crazy</string>
+    <string name="sexy">Sexy</string>
+    <string name="exit">Exit</string>
+    <string name="edit">edit</string>
+    <string name="enter">Enter your name</string>
+    <string name="chkbox">checkbox</string>
+    <string name="list">Select item</string>
+    <string name="list_title">list</string>
+    <string name="check">Check this box</string>
+    <string name="about">So yeah...this is an about text to fill this text box. I hope i will be one of the best android programmers on the world :)</string>
+    <string name="action_about">About Us</string>
+    <string name="both">Both</string>
+    <string name="iam">I am...</string>
+    <string name="rtrn">Return</string>
+    <string name="SAFR">StartActivityForResult</string>
+    <string name="invalid">invalid</string>string>
+    <string name="start">START</string>
+    <string name="timer">30 sec</string>
+    <string name="send">Send e-mail</string>
+    <string name="set">Set Wallpaper</string>
+    <string name="textplay">TextPlay</string>
+    <string name="vragolan">Vragolan</string>
+    <string name="camera">Camera</string>
+    <string name="email">Email</string>
+
+</resources>

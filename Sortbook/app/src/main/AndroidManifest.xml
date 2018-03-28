@@ -1,0 +1,105 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ecloga.sortbook">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.ecloga.sortbook.AboutUs"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.MyAccount"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.Help"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.Report"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.Notifications"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.Statistics"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.Edit"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.Progress"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.TaskDetails"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.GroupDetails"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.RenameGroup"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+
+        <activity
+            android:name="com.ecloga.sortbook.ChangeGroup"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.Group"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.ActionFailed"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.SplashScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ecloga.sortbook.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

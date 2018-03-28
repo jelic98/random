@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI Calculator</string>
+    <string name="calculate">Calculate</string>
+    <string name="metric">Metric</string>
+    <string name="standard">Standard</string>
+    <string name="hint_height">Input your height</string>
+    <string name="hint_weight">Input your weight</string>
+    <string name="again">Again</string>
+    <string name="about">About</string>
+
+    <string name="info">
+"BMI Calculator Free is a free calculator
+which calculates your Body Mass Index
+with specific formula
+
+If "Metric" system of measurements is checked,
+you have to use meters for height and kilograms for weight
+
+If "Standard" system od measurements is checked,
+you have to use feet for height and pounds for weight
+
+If you like this application plase
+give it 5 stars on Google Play
+and share it with friends
+
+For more information send e-mail:
+jelic.ecloga@gmail.com
+
+Copyright 2015 Ecloga Apps
+All rights reserved"</string>
+
+</resources>

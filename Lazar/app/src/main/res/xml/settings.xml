@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferencesScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:title="@string/edit"
+        android:key="name"
+        android:summary="@string/enter">
+    </EditTextPreference>
+
+    <CheckBoxPreference
+        android:title="@string/chkbox"
+        android:defaultValue="true"
+        android:key="checkbox"
+        android:summary="@string/check">
+    </CheckBoxPreference>
+
+    <Listpreference
+        android:title="@string/list_title"
+        android:key="list"
+        android:summary="@string/list"
+        android:entries="@array/list"
+        android:entryValues="@array/lValues">
+    </Listpreference>
+
+</PreferencesScreen>
